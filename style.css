@@ -1,0 +1,63 @@
+html
+{
+    background: #e3e3e3;
+}
+body
+{
+    font-family: Arial;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1
+{
+    font-size: 3em;
+    margin: 0;
+}
+
+p
+{
+    line-height: 1.4em;
+}
+
+#blog
+{
+    border-top: 1px dotted #ccc;
+}
+
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+}
+
+h3
+{
+    font-family: Cambria;
+}
+
+h5
+{
+    color: maroon;
+}
+
+#editors-blog
+{
+    font-size: 2em;
+}
+
+a[href="https://www.thoughtco.com/history-of-sony-playstation-4074320"] 
+{
+    font-style: italic;
+}
+
+a[href="https://www.pcgamer.com/twitch-in-crisis-as-it-blames-server-error-for-massive-data-breach/"] 
+{
+    font-style: italic;
+}
+
+#subscribe 
+{
+    font-style: italic;
+}
