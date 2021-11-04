@@ -7,7 +7,7 @@ body
     font-family: Arial;
     margin: 40px;
     padding: 40px;
-    color: #242424;
+    color: white;
     border-top: 10px solid #242424;
     background: #fff;
 }
@@ -16,12 +16,14 @@ h1
 {
     font-size: 3em;
     margin: 0;
+    color: black;
 }
 
 p
 {
     line-height: 1.4em;
 }
+
 
 #blog
 {
@@ -32,6 +34,11 @@ p
     border-bottom: 1px dotted #ccc;
 }
 
+h2
+{
+    color: black;
+}
+
 h3
 {
     font-family: Cambria;
@@ -39,7 +46,7 @@ h3
 
 h5
 {
-    color: maroon;
+    color: black;
 }
 
 #editors-blog
@@ -57,7 +64,77 @@ a[href="https://www.pcgamer.com/twitch-in-crisis-as-it-blames-server-error-for-m
     font-style: italic;
 }
 
-#subscribe 
-{
+#subscribe {
     font-style: italic;
+    margin: 20px;
+    color: black;
+}
+
+#blog {
+    background: #ccc;
+    display: flex;
+}
+
+article {
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1) 
+{
+    flex: 3px;
+
+}
+
+article:nth-of-type(2) 
+{
+    flex: 1px;
+}
+
+#Twitch {
+    height: 300px;
+    width: 350px;
+    float: left;
+    margin-right: 10px;
+}
+
+#PlaystationPlus {
+    height: 300px;
+    width: 350px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sticky
+{
+    background: black;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+}
+
+ul:nth-of-type(1) {
+    flex: 1px;
+}
+
+ul:nth-of-type(2) {
+    flex: 1px;
+}
+
+ul:nth-of-type(3) {
+    margin-right: 20px;
+}
+
+#About-Me
+{
+    color: black;
+}
+
+#About 
+{
+    font-size: 2em;
 }
