@@ -152,3 +152,22 @@ form
 {
     color: black;
 }
+
+/*Media Queries allowing content rendering to adapt to different conditions such as screen resolution (ipone, tablet, PC)*/
+@media (max-width: 400px)
+{
+    #blog
+    {
+        background: purple;
+    }
+
+    #About 
+    {
+        background: purple;
+    }
+
+    #Contact 
+    {
+        background: purple;
+    }
+}
